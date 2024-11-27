@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: stock-image-backend
+    env: python 3
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "stockimage.wsgi:application --bind 0.0.0.0:$PORT"
