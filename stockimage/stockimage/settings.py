@@ -97,6 +97,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'stockimage.urls'
+ASGI_APPLICATION = "stockimage.asgi.application"
 
 TEMPLATES = [
     {
